@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/nguyenthanhhuy/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.TapkuLibrary-2.4.docset
+Time: 2013-02-17 08:46:32 +0000

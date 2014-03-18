@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>UAGithubEngine 2.4</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>UAGithubEngine</Name>
+			<Path>Classes/UAGithubEngine.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>UAGithubJSONParser</Name>
+			<Path>Classes/UAGithubJSONParser.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>UAGithubURLConnection</Name>
+			<Path>Classes/UAGithubURLConnection.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>UAReachability</Name>
+			<Path>Classes/UAReachability.html</Path>
+		</Node>
+		
+		<Node id="5">
+			<Name>NSArray(Utilities)</Name>
+			<Path>Categories/NSArray+Utilities.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>NSData(Base64)</Name>
+			<Path>Categories/NSData+Base64.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>NSInvocation(Blocks)</Name>
+			<Path>Categories/NSInvocation+Blocks.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>NSString(UAGithubEngineUtilities)</Name>
+			<Path>Categories/NSString+UAGithubEngineUtilities.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>NSString(UUID)</Name>
+			<Path>Categories/NSString+UUID.html</Path>
+		</Node>
+		
+		
+	</Library>
+</DocSetNodes>

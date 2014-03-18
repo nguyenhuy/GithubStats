@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+CalendarGrid.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(CalendarGrid)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CalendarGrid.h</DeclaredIn>
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CalendarGrid)/firstOfMonth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CalendarGrid.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)firstOfMonth</Declaration>
+			
+			
+			<Anchor>//api/name/firstOfMonth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CalendarGrid)/nextMonth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CalendarGrid.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)nextMonth</Declaration>
+			
+			
+			<Anchor>//api/name/nextMonth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CalendarGrid)/previousMonth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CalendarGrid.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)previousMonth</Declaration>
+			
+			
+			<Anchor>//api/name/previousMonth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CalendarGrid)/lastOfMonthDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CalendarGrid.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)lastOfMonthDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastOfMonthDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CalendarGrid)/lastofMonthDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CalendarGrid.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)lastofMonthDate</Declaration>
+			
+			
+			<Anchor>//api/name/lastofMonthDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDate(CalendarGrid)/lastOfCurrentMonth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+CalendarGrid.h</DeclaredIn>			
+			
+			<Declaration>+ (NSDate *)lastOfCurrentMonth</Declaration>
+			
+			
+			<Anchor>//api/name/lastOfCurrentMonth</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,2204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UAGithubEngine.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UAGithubEngine</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/setUsername:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (strong) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubEngine/username</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (strong) NSString *username</Declaration>
+			
+			
+			<Anchor>//api/name/username</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/setPassword:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubEngine/password</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *password</Declaration>
+			
+			
+			<Anchor>//api/name/password</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/setReachability:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UAReachability *reachability</Declaration>
+			
+			
+			<Anchor>//api/name/reachability</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubEngine/reachability</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UAReachability *reachability</Declaration>
+			
+			
+			<Anchor>//api/name/reachability</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/setIsReachable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readonly) BOOL isReachable</Declaration>
+			
+			
+			<Anchor>//api/name/isReachable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubEngine/isReachable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign, readonly) BOOL isReachable</Declaration>
+			
+			
+			<Anchor>//api/name/isReachable</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/initWithUsername:password:withReachability:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithUsername:(NSString *)aUsername password:(NSString *)aPassword withReachability:(BOOL)withReach</Declaration>
+			
+			
+			<Anchor>//api/name/initWithUsername:password:withReachability:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/gistsForUser:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)gistsForUser:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/gistsForUser:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/gistsWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)gistsWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/gistsWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/publicGistsWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)publicGistsWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/publicGistsWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/starredGistsWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)starredGistsWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/starredGistsWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/gist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)gist:(NSString *)gistId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/gist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createGist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createGist:(NSDictionary *)gistDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createGist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editGist:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editGist:(NSString *)gistId withDictionary:(NSDictionary *)gistDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editGist:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/starGist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)starGist:(NSString *)gistId success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/starGist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/unstarGist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)unstarGist:(NSString *)gistId success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/unstarGist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/gistIsStarred:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)gistIsStarred:(NSString *)gistId success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/gistIsStarred:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/forkGist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)forkGist:(NSString *)gistId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/forkGist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteGist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteGist:(NSString *)gistId success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteGist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commentsForGist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commentsForGist:(NSString *)gistId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commentsForGist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/gistComment:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)gistComment:(NSInteger)commentId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/gistComment:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addCommitComment:forGist:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addCommitComment:(NSDictionary *)commentDictionary forGist:(NSString *)gistId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addCommitComment:forGist:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editGistComment:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editGistComment:(NSInteger)commentId withDictionary:(NSDictionary *)commentDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editGistComment:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteGistComment:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteGistComment:(NSInteger)commentId success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteGistComment:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/assignedIssuesWithState:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)assignedIssuesWithState:(NSString *)state success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/assignedIssuesWithState:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createdIssuesWithState:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createdIssuesWithState:(NSString *)state success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createdIssuesWithState:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/subscribedIssuesWithState:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)subscribedIssuesWithState:(NSString *)state success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/subscribedIssuesWithState:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/mentionedIssuesWithState:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)mentionedIssuesWithState:(NSString *)state success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/mentionedIssuesWithState:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/openIssuesForRepository:withParameters:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)openIssuesForRepository:(NSString *)repositoryPath withParameters:(NSDictionary *)parameters success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/openIssuesForRepository:withParameters:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/closedIssuesForRepository:withParameters:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)closedIssuesForRepository:(NSString *)repositoryPath withParameters:(NSDictionary *)parameters success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/closedIssuesForRepository:withParameters:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/issue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)issue:(NSInteger)issueNumber inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/issue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editIssue:inRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editIssue:(NSInteger)issueNumber inRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)issueDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editIssue:inRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addIssueForRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addIssueForRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)issueDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addIssueForRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/closeIssue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)closeIssue:(NSInteger)issueNumber inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/closeIssue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/reopenIssue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)reopenIssue:(NSInteger)issueNumber inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/reopenIssue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteIssue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteIssue:(NSInteger)issueNumber inRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteIssue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/assigneesForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)assigneesForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/assigneesForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/user:isAssigneeForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)user:(NSString *)user isAssigneeForRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/user:isAssigneeForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commentsForIssue:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commentsForIssue:(NSInteger)issueNumber forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commentsForIssue:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/issueComment:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)issueComment:(NSInteger)commentNumber forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/issueComment:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addComment:toIssue:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addComment:(NSString *)comment toIssue:(NSInteger)issueNumber forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addComment:toIssue:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editComment:forRepository:withBody:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editComment:(NSInteger)commentNumber forRepository:(NSString *)repositoryPath withBody:(NSString *)commentBody success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editComment:forRepository:withBody:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteComment:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteComment:(NSInteger)commentNumber forRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteComment:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/notificationsWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)notificationsWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/notificationsWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/notificationsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)notificationsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/notificationsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/notificationsForThread:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)notificationsForThread:(NSInteger)threadId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/notificationsForThread:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/markNotificationsAsReadWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)markNotificationsAsReadWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/markNotificationsAsReadWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/markNotificationsAsReadInRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)markNotificationsAsReadInRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/markNotificationsAsReadInRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/markNotificationThreadAsRead:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)markNotificationThreadAsRead:(NSInteger)threadId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/markNotificationThreadAsRead:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/currentUserIsSubscribedToNotificationThread:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)currentUserIsSubscribedToNotificationThread:(NSInteger)threadId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/currentUserIsSubscribedToNotificationThread:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/subscribeCurrentUserToNotificationThread:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)subscribeCurrentUserToNotificationThread:(NSInteger)threadId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/subscribeCurrentUserToNotificationThread:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/unsubscribeCurrentUserFromNotificationThread:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)unsubscribeCurrentUserFromNotificationThread:(NSInteger)threadId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/unsubscribeCurrentUserFromNotificationThread:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/eventsForIssue:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)eventsForIssue:(NSInteger)issueId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/eventsForIssue:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/issueEventsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)issueEventsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/issueEventsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/issueEvent:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)issueEvent:(NSInteger)eventId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/issueEvent:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/labelsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)labelsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/labelsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/label:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)label:(NSString *)labelName inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/label:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addLabelToRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLabelToRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)labelDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addLabelToRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editLabel:inRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editLabel:(NSString *)labelName inRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)labelDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editLabel:inRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/removeLabel:fromRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeLabel:(NSString *)labelName fromRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/removeLabel:fromRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/labelsForIssue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)labelsForIssue:(NSInteger)issueId inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/labelsForIssue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addLabels:toIssue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addLabels:(NSArray *)labels toIssue:(NSInteger)issueId inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addLabels:toIssue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/removeLabel:fromIssue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeLabel:(NSString *)labelNamed fromIssue:(NSInteger)issueNumber inRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/removeLabel:fromIssue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/removeLabelsFromIssue:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeLabelsFromIssue:(NSInteger)issueNumber inRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/removeLabelsFromIssue:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/replaceAllLabelsForIssue:inRepository:withLabels:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)replaceAllLabelsForIssue:(NSInteger)issueId inRepository:(NSString *)repositoryPath withLabels:(NSArray *)labels success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/replaceAllLabelsForIssue:inRepository:withLabels:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/labelsForIssueInMilestone:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)labelsForIssueInMilestone:(NSInteger)milestoneId inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/labelsForIssueInMilestone:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/milestonesForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)milestonesForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/milestonesForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/milestone:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)milestone:(NSInteger)milestoneNumber forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/milestone:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createMilestoneWithInfo:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createMilestoneWithInfo:(NSDictionary *)infoDictionary forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createMilestoneWithInfo:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/updateMilestone:forRepository:withInfo:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateMilestone:(NSInteger)milestoneNumber forRepository:(NSString *)repositoryPath withInfo:(NSDictionary *)infoDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/updateMilestone:forRepository:withInfo:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteMilestone:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteMilestone:(NSInteger)milestoneNumber forRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteMilestone:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addIssue:toMilestone:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addIssue:(NSInteger)issueId toMilestone:(NSInteger)milestoneId inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addIssue:toMilestone:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/organizationsForUser:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)organizationsForUser:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/organizationsForUser:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/organizationsWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)organizationsWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/organizationsWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/organization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)organization:(NSString *)org withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/organization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/updateOrganization:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateOrganization:(NSString *)org withDictionary:(NSDictionary *)orgDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/updateOrganization:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/membersOfOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)membersOfOrganization:(NSString *)org withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/membersOfOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/user:isMemberOfOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)user:(NSString *)user isMemberOfOrganization:(NSString *)org withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/user:isMemberOfOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/removeUser:fromOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeUser:(NSString *)user fromOrganization:(NSString *)org withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/removeUser:fromOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/publicMembersOfOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)publicMembersOfOrganization:(NSString *)org withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/publicMembersOfOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/user:isPublicMemberOfOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)user:(NSString *)user isPublicMemberOfOrganization:(NSString *)org withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/user:isPublicMemberOfOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/publicizeMembershipOfUser:inOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)publicizeMembershipOfUser:(NSString *)user inOrganization:(NSString *)org withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/publicizeMembershipOfUser:inOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/concealMembershipOfUser:inOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)concealMembershipOfUser:(NSString *)user inOrganization:(NSString *)org withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/concealMembershipOfUser:inOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/teamsInOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)teamsInOrganization:(NSString *)org withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/teamsInOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/team:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)team:(NSInteger)teamId withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/team:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createTeam:inOrganization:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createTeam:(NSDictionary *)teamDictionary inOrganization:(NSString *)org withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createTeam:inOrganization:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editTeam:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editTeam:(NSInteger)teamId withDictionary:(NSDictionary *)teamDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editTeam:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteTeam:(NSInteger)teamId withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/membersOfTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)membersOfTeam:(NSInteger)teamId withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/membersOfTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/user:isMemberOfTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)user:(NSString *)user isMemberOfTeam:(NSInteger)teamId withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/user:isMemberOfTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addUser:toTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addUser:(NSString *)user toTeam:(NSInteger)teamId withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addUser:toTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/removeUser:fromTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeUser:(NSString *)user fromTeam:(NSInteger)teamId withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/removeUser:fromTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/repositoriesForTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)repositoriesForTeam:(NSInteger)teamId withSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/repositoriesForTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/repository:isManagedByTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)repository:(NSString *)repositoryPath isManagedByTeam:(NSInteger)teamId withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/repository:isManagedByTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addRepository:toTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addRepository:(NSString *)repositoryPath toTeam:(NSInteger)teamId withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addRepository:toTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/removeRepository:fromTeam:withSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeRepository:(NSString *)repositoryPath fromTeam:(NSInteger)teamId withSuccess:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/removeRepository:fromTeam:withSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/pullRequestsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)pullRequestsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/pullRequestsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/pullRequest:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)pullRequest:(NSInteger)pullRequestId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/pullRequest:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createPullRequest:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createPullRequest:(NSDictionary *)pullRequestDictionary forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createPullRequest:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/updatePullRequest:forRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)updatePullRequest:(NSInteger)pullRequestId forRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)pullRequestDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/updatePullRequest:forRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commitsInPullRequest:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commitsInPullRequest:(NSInteger)pullRequestId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commitsInPullRequest:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/filesInPullRequest:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)filesInPullRequest:(NSInteger)pullRequestId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/filesInPullRequest:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/pullRequest:isMergedForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)pullRequest:(NSInteger)pullRequestId isMergedForRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/pullRequest:isMergedForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/mergePullRequest:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)mergePullRequest:(NSInteger)pullRequestId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/mergePullRequest:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commentsForPullRequest:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commentsForPullRequest:(NSInteger)pullRequestId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commentsForPullRequest:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/pullRequestComment:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)pullRequestComment:(NSInteger)commentId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/pullRequestComment:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createPullRequestComment:forPullRequest:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createPullRequestComment:(NSDictionary *)commentDictionary forPullRequest:(NSInteger)pullRequestId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createPullRequestComment:forPullRequest:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editPullRequestComment:forRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editPullRequestComment:(NSInteger)commentId forRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)commentDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editPullRequestComment:forRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deletePullRequestComment:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deletePullRequestComment:(NSInteger)commentId forRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deletePullRequestComment:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/repositoriesForUser:includeWatched:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)repositoriesForUser:(NSString *)aUser includeWatched:(BOOL)watched success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/repositoriesForUser:includeWatched:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/repositoriesForUser:includeWatched:page:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)repositoriesForUser:(NSString *)aUser includeWatched:(BOOL)watched page:(int)page success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/repositoriesForUser:includeWatched:page:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/repositoriesWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)repositoriesWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/repositoriesWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createRepositoryWithInfo:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createRepositoryWithInfo:(NSDictionary *)infoDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createRepositoryWithInfo:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/repository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)repository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/repository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/updateRepository:withInfo:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateRepository:(NSString *)repositoryPath withInfo:(NSDictionary *)infoDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/updateRepository:withInfo:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/contributorsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)contributorsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/contributorsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/languageBreakdownForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)languageBreakdownForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/languageBreakdownForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/teamsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)teamsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/teamsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/annotatedTagsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)annotatedTagsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/annotatedTagsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/branchesForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)branchesForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/branchesForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/collaboratorsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)collaboratorsForRepository:(NSString *)repositoryName success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/collaboratorsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/user:isCollaboratorForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)user:(NSString *)user isCollaboratorForRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/user:isCollaboratorForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addCollaborator:toRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addCollaborator:(NSString *)collaborator toRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addCollaborator:toRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/removeCollaborator:fromRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeCollaborator:(NSString *)collaborator fromRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/removeCollaborator:fromRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commitsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commitsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commitsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commit:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commit:(NSString *)commitSha inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commit:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commitCommentsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commitCommentsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commitCommentsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commitCommentsForCommit:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commitCommentsForCommit:(NSString *)sha inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commitCommentsForCommit:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addCommitComment:forCommit:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addCommitComment:(NSDictionary *)commentDictionary forCommit:(NSString *)sha inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addCommitComment:forCommit:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/commitComment:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)commitComment:(NSInteger)commentId inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/commitComment:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editCommitComment:inRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editCommitComment:(NSInteger)commentId inRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)infoDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editCommitComment:inRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteCommitComment:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteCommitComment:(NSInteger)commentId inRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteCommitComment:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/downloadsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)downloadsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/downloadsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/download:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)download:(NSInteger)downloadId inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/download:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addDownloadToRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addDownloadToRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)downloadDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addDownloadToRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteDownload:fromRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteDownload:(NSInteger)downloadId fromRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteDownload:fromRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/forksForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)forksForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/forksForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/forkRepository:inOrganization:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)forkRepository:(NSString *)repositoryPath inOrganization:(NSString *)org success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/forkRepository:inOrganization:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/forkRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)forkRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/forkRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deployKeysForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deployKeysForRepository:(NSString *)repositoryName success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deployKeysForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deployKey:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deployKey:(NSInteger)keyId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deployKey:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addDeployKey:withTitle:ToRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addDeployKey:(NSString *)keyData withTitle:(NSString *)keyTitle ToRepository:(NSString *)repositoryName success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addDeployKey:withTitle:ToRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editDeployKey:inRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editDeployKey:(NSInteger)keyId inRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)keyDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editDeployKey:inRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteDeployKey:fromRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteDeployKey:(NSInteger)keyId fromRepository:(NSString *)repositoryName success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteDeployKey:fromRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/watchersForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)watchersForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/watchersForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/watchedRepositoriesForUser:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)watchedRepositoriesForUser:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/watchedRepositoriesForUser:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/watchedRepositoriessuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)watchedRepositoriessuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/watchedRepositoriessuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/repositoryIsWatched:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)repositoryIsWatched:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/repositoryIsWatched:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/watchRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)watchRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/watchRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/unwatchRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)unwatchRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/unwatchRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/hooksForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)hooksForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/hooksForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/hook:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)hook:(NSInteger)hookId forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/hook:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addHook:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addHook:(NSDictionary *)hookDictionary forRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addHook:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editHook:forRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editHook:(NSInteger)hookId forRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)hookDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editHook:forRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/testHook:forRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)testHook:(NSInteger)hookId forRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/testHook:forRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteHook:fromRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteHook:(NSInteger)hookId fromRepository:(NSString *)repositoryPath success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteHook:fromRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/mergeHead:intoBranch:inRepository:withMessage:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)mergeHead:(NSString *)head intoBranch:(NSString *)base inRepository:(NSString *)repositoryPath withMessage:(NSString *)commitMessage success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/mergeHead:intoBranch:inRepository:withMessage:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/user:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)user:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/user:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/userWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)userWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/userWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/editUser:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)editUser:(NSDictionary *)userDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/editUser:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/emailAddressessuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)emailAddressessuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/emailAddressessuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addEmailAddresses:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addEmailAddresses:(NSArray *)emails success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addEmailAddresses:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deleteEmailAddresses:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteEmailAddresses:(NSArray *)emails success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deleteEmailAddresses:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/followers:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)followers:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/followers:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/followersWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)followersWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/followersWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/following:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)following:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/following:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/follows:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)follows:(NSString *)user success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/follows:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/follow:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)follow:(NSString *)user success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/follow:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/unfollow:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)unfollow:(NSString *)user success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/unfollow:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/publicKeysWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)publicKeysWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeysWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/publicKey:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)publicKey:(NSInteger)keyId success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/addPublicKey:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPublicKey:(NSDictionary *)keyDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/addPublicKey:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/updatePublicKey:withInfo:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)updatePublicKey:(NSInteger)keyId withInfo:(NSDictionary *)keyDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/updatePublicKey:withInfo:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/deletePublicKey:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)deletePublicKey:(NSInteger)keyId success:(UAGithubEngineBooleanSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/deletePublicKey:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/eventsWithSuccess:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)eventsWithSuccess:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/eventsWithSuccess:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/eventsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)eventsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/eventsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/eventsForNetwork:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)eventsForNetwork:(NSString *)networkPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/eventsForNetwork:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/eventsReceivedByUser:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)eventsReceivedByUser:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/eventsReceivedByUser:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/eventsPerformedByUser:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)eventsPerformedByUser:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/eventsPerformedByUser:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/publicEventsPerformedByUser:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)publicEventsPerformedByUser:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/publicEventsPerformedByUser:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/eventsForOrganization:user:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)eventsForOrganization:(NSString *)organization user:(NSString *)user success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/eventsForOrganization:user:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/publicEventsForOrganization:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)publicEventsForOrganization:(NSString *)organization success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/publicEventsForOrganization:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/tree:inRepository:recursive:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)tree:(NSString *)sha inRepository:(NSString *)repositoryPath recursive:(BOOL)recursive success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/tree:inRepository:recursive:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createTree:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createTree:(NSDictionary *)treeDictionary inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createTree:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/blobForSHA:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)blobForSHA:(NSString *)sha inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/blobForSHA:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createBlob:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createBlob:(NSDictionary *)blobDictionary inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createBlob:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/reference:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)reference:(NSString *)reference inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/reference:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/referencesInRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)referencesInRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/referencesInRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/tagsForRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)tagsForRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/tagsForRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createReference:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createReference:(NSDictionary *)refDictionary inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createReference:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/updateReference:inRepository:withDictionary:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateReference:(NSString *)reference inRepository:(NSString *)repositoryPath withDictionary:(NSDictionary *)referenceDictionary success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/updateReference:inRepository:withDictionary:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/tag:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)tag:(NSString *)sha inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/tag:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createTagObject:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createTagObject:(NSDictionary *)tagDictionary inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createTagObject:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/rawCommit:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)rawCommit:(NSString *)commit inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/rawCommit:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/createRawCommit:inRepository:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)createRawCommit:(NSDictionary *)commitDictionary inRepository:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/createRawCommit:inRepository:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/renderAsMarkdown:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)renderAsMarkdown:(NSString *)string success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/renderAsMarkdown:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubEngine/renderAsGitHubFlavoredMarkdown:withRepositoryContext:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubEngine.h</DeclaredIn>			
+			
+			<Declaration>- (void)renderAsGitHubFlavoredMarkdown:(NSString *)string withRepositoryContext:(NSString *)repositoryPath success:(UAGithubEngineSuccessBlock)successBlock failure:(UAGithubEngineFailureBlock)failureBlock</Declaration>
+			
+			
+			<Anchor>//api/name/renderAsGitHubFlavoredMarkdown:withRepositoryContext:success:failure:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,29 @@
+
+PODS: 
+- FDStatusBarNotifierView (0.1.0)
+- MagicalRecord (2.1)
+- SVProgressHUD (0.9)
+- TapkuLibrary (2.4)
+- UAGithubEngine (2.4)
+
+DEPENDENCIES: 
+- FDStatusBarNotifierView (~> 0.1.0)
+- MagicalRecord (~> 2.1)
+- SVProgressHUD (~> 0.9)
+- TapkuLibrary (from `git@github.com:nguyenhuy/tapkulibrary.git')
+- UAGithubEngine (from `git@github.com:nguyenhuy/UAGithubEngine.git')
+
+EXTERNAL SOURCES: 
+  TapkuLibrary: 
+    :git: git@github.com:nguyenhuy/tapkulibrary.git
+  UAGithubEngine: 
+    :git: git@github.com:nguyenhuy/UAGithubEngine.git
+
+SPEC CHECKSUMS: 
+  FDStatusBarNotifierView: 46fc1eb663cb75fc65a77f359032d0624d943f7a
+  MagicalRecord: aedbebe987d02d1215718a904c93d7965e48e398
+  SVProgressHUD: 98935fbafaf0031df4a9cafca3c66eaf3da06967
+  TapkuLibrary: afdd085d58d3c6e147672abc421a447afc9c1f61
+  UAGithubEngine: d1c2095f52fa3c94ce4038f5426e0374fcb8553c
+
+COCOAPODS: 0.16.2

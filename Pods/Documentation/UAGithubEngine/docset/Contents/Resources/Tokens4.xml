@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UAReachability.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UAReachability</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAReachability.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAReachability/networkStatusForFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAReachability.h</DeclaredIn>			
+			
+			<Declaration>- (NetworkStatus)networkStatusForFlags:(SCNetworkReachabilityFlags)flags</Declaration>
+			
+			
+			<Anchor>//api/name/networkStatusForFlags:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAReachability/currentReachabilityStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAReachability.h</DeclaredIn>			
+			
+			<Declaration>- (NetworkStatus)currentReachabilityStatus</Declaration>
+			
+			
+			<Anchor>//api/name/currentReachabilityStatus</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

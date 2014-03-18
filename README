@@ -1,0 +1,3 @@
+A simple iOS app that shows GitHub statistics of a user in a nice calendar view. For now, statistics inlcude number of commits and pull requests in a specified repo.
+
+The goal is to help the user get an idea about what he did each day and thus, (hopefully) determine whether he is productive or not. Also, it's a nice way to motivate people to "commit early, commit often" and contribute more to projects via PRs.

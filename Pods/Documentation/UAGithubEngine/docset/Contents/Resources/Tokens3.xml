@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UAGithubURLConnection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UAGithubURLConnection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubURLConnection/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubURLConnection/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSMutableData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubURLConnection/setRequestType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UAGithubRequestType requestType</Declaration>
+			
+			
+			<Anchor>//api/name/requestType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubURLConnection/requestType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UAGithubRequestType requestType</Declaration>
+			
+			
+			<Anchor>//api/name/requestType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubURLConnection/setResponseType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UAGithubResponseType responseType</Declaration>
+			
+			
+			<Anchor>//api/name/responseType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubURLConnection/responseType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UAGithubResponseType responseType</Declaration>
+			
+			
+			<Anchor>//api/name/responseType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UAGithubURLConnection/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UAGithubURLConnection/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UAGithubURLConnection/asyncRequest:success:failure:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>+ (id)asyncRequest:(NSURLRequest *)request success:(id ( ^ ) ( NSData *, NSURLResponse *))successBlock failure:(id ( ^ ) ( NSError *))failureBlock_</Declaration>
+			
+			
+			<Anchor>//api/name/asyncRequest:success:failure:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UAGithubURLConnection/asyncRequest:success:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UAGithubURLConnection.h</DeclaredIn>			
+			
+			<Declaration>+ (id)asyncRequest:(NSURLRequest *)request success:(id ( ^ ) ( NSData *, NSURLResponse *))successBlock error:(NSError *__strong *)error</Declaration>
+			
+			
+			<Anchor>//api/name/asyncRequest:success:error:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/TKCoverflowViewDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/TKCoverflowViewDataSource</TokenIdentifier>
+			<Abstract type="html">The data source of a TKCoverflowView object must adopt the TKCoverflowViewDataSource protocol.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCoverflowViewDataSource/numberOfCoversInCoverflowView:</TokenIdentifier>
+			<Abstract type="html">Returns the number of covers to display in the view.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)numberOfCoversInCoverflowView:(TKCoverflowView *)coverflowView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coverflowView</Name>
+					<Abstract type="html">The coverflow view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The number of covers displayed in the coverflow view.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfCoversInCoverflowView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/TKCoverflowViewDataSource/coverflowView:coverForIndex:</TokenIdentifier>
+			<Abstract type="html">Returns a coverflow cover view to place at the cover index.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (TKCoverflowCoverView *)coverflowView:(TKCoverflowView *)coverflowView coverForIndex:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coverflowView</Name>
+					<Abstract type="html">The coverflow view.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The index for the coverflow cover.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A TKCoverflowCoverView view that is either newly created or from the coverflow&apos;s reusable queue.</Abstract></ReturnValue>
+			<Anchor>//api/name/coverflowView:coverForIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

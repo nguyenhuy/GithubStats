@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+UAGithubEngineUtilities.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(UAGithubEngineUtilities)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+UAGithubEngineUtilities.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSString(UAGithubEngineUtilities)/dateFromGithubDateString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+UAGithubEngineUtilities.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)dateFromGithubDateString</Declaration>
+			
+			
+			<Anchor>//api/name/dateFromGithubDateString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSString(UAGithubEngineUtilities)/encodedString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+UAGithubEngineUtilities.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)encodedString</Declaration>
+			
+			
+			<Anchor>//api/name/encodedString</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

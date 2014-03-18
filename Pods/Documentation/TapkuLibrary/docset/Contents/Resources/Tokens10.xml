@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TKCoverflowCoverView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TKCoverflowCoverView</TokenIdentifier>
+			<Abstract type="html">TKCoverflowCoverView objects are the main views for displaying covers in TKCoverflowView.</Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/initWithFrame:reflection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame reflection:(BOOL)reflection</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:reflection:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setImageView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowCoverView/imageView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *imageView</Declaration>
+			
+			
+			<Anchor>//api/name/imageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setReflectedImageView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *reflectedImageView</Declaration>
+			
+			
+			<Anchor>//api/name/reflectedImageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowCoverView/reflectedImageView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImageView *reflectedImageView</Declaration>
+			
+			
+			<Anchor>//api/name/reflectedImageView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setReflectionGradientView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) TKGradientView *reflectionGradientView</Declaration>
+			
+			
+			<Anchor>//api/name/reflectionGradientView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowCoverView/reflectionGradientView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) TKGradientView *reflectionGradientView</Declaration>
+			
+			
+			<Anchor>//api/name/reflectionGradientView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setHasRelection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasRelection</Declaration>
+			
+			
+			<Anchor>//api/name/hasRelection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TKCoverflowCoverView/hasRelection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL hasRelection</Declaration>
+			
+			
+			<Anchor>//api/name/hasRelection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TKCoverflowCoverView/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TKCoverflowView.h</DeclaredIn>			
+			
+			<Declaration>- (void)setImage:(UIImage *)image</Declaration>
+			
+			
+			<Anchor>//api/name/setImage:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
